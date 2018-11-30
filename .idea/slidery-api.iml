@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="PHP" type="php">
+        <CLASSES>
+          <root url="file://$APPLICATION_HOME_DIR$/bin" />
+          <root url="file://$MODULE_DIR$/../../new-zmed/vendor/composer" />
+          <root url="file://$MODULE_DIR$/../../new-zmed/vendor/dompdf/dompdf" />
+          <root url="file://$MODULE_DIR$/../../new-zmed/vendor/firebase/php-jwt" />
+          <root url="file://$MODULE_DIR$/../../new-zmed/vendor/fzaninotto/faker" />
+          <root url="file://$MODULE_DIR$/../../new-zmed/vendor/larapack/dd" />
+          <root url="file://$MODULE_DIR$/../../new-zmed/vendor/mpdf/mpdf" />
+          <root url="file://$MODULE_DIR$/../../new-zmed/vendor/nesbot/carbon" />
+          <root url="file://$MODULE_DIR$/../../new-zmed/vendor/pdepend/pdepend" />
+          <root url="file://$MODULE_DIR$/../../new-zmed/vendor/phenx/php-font-lib" />
+          <root url="file://$MODULE_DIR$/../../new-zmed/vendor/phenx/php-svg-lib" />
+          <root url="file://$MODULE_DIR$/../../new-zmed/vendor/phpmailer/phpmailer" />
+          <root url="file://$MODULE_DIR$/../../new-zmed/vendor/phpmd/phpmd" />
+          <root url="file://$MODULE_DIR$/../../new-zmed/vendor/phpoffice/phpexcel" />
+          <root url="file://$MODULE_DIR$/../../new-zmed/vendor/psr/container" />
+          <root url="file://$MODULE_DIR$/../../new-zmed/vendor/setasign/fpdi" />
+          <root url="file://$MODULE_DIR$/../../new-zmed/vendor/symfony/config" />
+          <root url="file://$MODULE_DIR$/../../new-zmed/vendor/symfony/dependency-injection" />
+          <root url="file://$MODULE_DIR$/../../new-zmed/vendor/symfony/filesystem" />
+          <root url="file://$MODULE_DIR$/../../new-zmed/vendor/symfony/polyfill-ctype" />
+          <root url="file://$MODULE_DIR$/../../new-zmed/vendor/symfony/polyfill-mbstring" />
+          <root url="file://$MODULE_DIR$/../../new-zmed/vendor/symfony/polyfill-php72" />
+          <root url="file://$MODULE_DIR$/../../new-zmed/vendor/symfony/translation" />
+          <root url="file://$MODULE_DIR$/../../new-zmed/vendor/symfony/var-dumper" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$APPLICATION_HOME_DIR$/bin" />
+          <root url="file://$MODULE_DIR$/../../new-zmed/vendor/composer" />
+          <root url="file://$MODULE_DIR$/../../new-zmed/vendor/dompdf/dompdf" />
+          <root url="file://$MODULE_DIR$/../../new-zmed/vendor/firebase/php-jwt" />
+          <root url="file://$MODULE_DIR$/../../new-zmed/vendor/fzaninotto/faker" />
+          <root url="file://$MODULE_DIR$/../../new-zmed/vendor/larapack/dd" />
+          <root url="file://$MODULE_DIR$/../../new-zmed/vendor/mpdf/mpdf" />
+          <root url="file://$MODULE_DIR$/../../new-zmed/vendor/nesbot/carbon" />
+          <root url="file://$MODULE_DIR$/../../new-zmed/vendor/pdepend/pdepend" />
+          <root url="file://$MODULE_DIR$/../../new-zmed/vendor/phenx/php-font-lib" />
+          <root url="file://$MODULE_DIR$/../../new-zmed/vendor/phenx/php-svg-lib" />
+          <root url="file://$MODULE_DIR$/../../new-zmed/vendor/phpmailer/phpmailer" />
+          <root url="file://$MODULE_DIR$/../../new-zmed/vendor/phpmd/phpmd" />
+          <root url="file://$MODULE_DIR$/../../new-zmed/vendor/phpoffice/phpexcel" />
+          <root url="file://$MODULE_DIR$/../../new-zmed/vendor/psr/container" />
+          <root url="file://$MODULE_DIR$/../../new-zmed/vendor/setasign/fpdi" />
+          <root url="file://$MODULE_DIR$/../../new-zmed/vendor/symfony/config" />
+          <root url="file://$MODULE_DIR$/../../new-zmed/vendor/symfony/dependency-injection" />
+          <root url="file://$MODULE_DIR$/../../new-zmed/vendor/symfony/filesystem" />
+          <root url="file://$MODULE_DIR$/../../new-zmed/vendor/symfony/polyfill-ctype" />
+          <root url="file://$MODULE_DIR$/../../new-zmed/vendor/symfony/polyfill-mbstring" />
+          <root url="file://$MODULE_DIR$/../../new-zmed/vendor/symfony/polyfill-php72" />
+          <root url="file://$MODULE_DIR$/../../new-zmed/vendor/symfony/translation" />
+          <root url="file://$MODULE_DIR$/../../new-zmed/vendor/symfony/var-dumper" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="PHARS">
+        <CLASSES>
+          <root url="phar://$MODULE_DIR$/../../new-zmed/vendor/symfony/dependency-injection/Tests/Fixtures/includes/ProjectWithXsdExtensionInPhar.phar/" />
+          <root url="phar://$MODULE_DIR$/vendor/phar-io/manifest/tests/_fixture/test.phar/" />
+          <root url="phar://$MODULE_DIR$/vendor/phpunit/phpunit/tests/_files/phpunit-example-extension/tools/phpunit.d/phpunit-example-extension-3.0.3.phar/" />
+        </CLASSES>
+        <SOURCES>
+          <root url="phar://$MODULE_DIR$/../../new-zmed/vendor/symfony/dependency-injection/Tests/Fixtures/includes/ProjectWithXsdExtensionInPhar.phar/" />
+          <root url="phar://$MODULE_DIR$/vendor/phar-io/manifest/tests/_fixture/test.phar/" />
+          <root url="phar://$MODULE_DIR$/vendor/phpunit/phpunit/tests/_files/phpunit-example-extension/tools/phpunit.d/phpunit-example-extension-3.0.3.phar/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>
