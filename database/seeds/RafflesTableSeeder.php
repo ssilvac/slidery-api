@@ -11,6 +11,13 @@ class RafflesTableSeeder extends Seeder
      */
     public function run()
     {
-        //
+        $prizes = \App\Prize::all();
+
+        foreach ($prizes as $prize) {
+
+            factory(\App\Raffle::class)->create([
+                'prize_id' => $prize->id
+            ]);
+        }
     }
 }

@@ -1,5 +1,6 @@
 <?php
 
+use App\Region;
 use Illuminate\Database\Seeder;
 
 class CitiesTableSeeder extends Seeder
@@ -11,6 +12,32 @@ class CitiesTableSeeder extends Seeder
      */
     public function run()
     {
-        //
+        factory(\App\City::class, 5)->create([
+            'region_id' => factory(Region::class)->create()->id
+        ]);
+
+        factory(\App\City::class, 5)->create([
+            'region_id' => factory(Region::class)->create()->id
+        ]);
+
+        factory(\App\City::class, 5)->create([
+            'region_id' => factory(Region::class)->create()->id
+        ]);
+
+        factory(\App\City::class, 5)->create([
+            'region_id' => factory(Region::class)->create()->id
+        ]);
+
+        factory(\App\City::class, 5)->create([
+            'region_id' => factory(Region::class)->create()->id
+        ]);
+
+        factory(\App\City::class, 5)->create([
+            'region_id' => factory(Region::class)->create()->id
+        ]);
+
+        factory(\App\City::class, 5)->create([
+            'region_id' => factory(Region::class)->create()->id
+        ]);
     }
 }

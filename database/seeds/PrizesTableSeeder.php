@@ -11,6 +11,6 @@ class PrizesTableSeeder extends Seeder
      */
     public function run()
     {
-        //
+        factory(\App\Prize::class, 5)->create();
     }
 }
