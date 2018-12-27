@@ -2,11 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Category;
+use App\City;
 use Illuminate\Http\Request;
-use Illuminate\Http\Response;
 
-class CategoryController extends Controller
+class CityController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -15,12 +14,7 @@ class CategoryController extends Controller
      */
     public function index()
     {
-        $categories = Category::all();
-
-        return response()->json([
-            'status' => 200,
-            'results' => $categories
-        ]);
+        return City::with('region')->get();
     }
 
     /**
@@ -30,7 +24,7 @@ class CategoryController extends Controller
      */
     public function create()
     {
-
+        //
     }
 
     /**
@@ -41,9 +35,7 @@ class CategoryController extends Controller
      */
     public function store(Request $request)
     {
-        $category = new Category();
-        $category->name = $request->name;
-        $category->save();
+        //
     }
 
     /**
@@ -54,7 +46,7 @@ class CategoryController extends Controller
      */
     public function show($id)
     {
-        return Category::find($id);
+        //
     }
 
     /**

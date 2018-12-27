@@ -14,17 +14,3 @@
 Route::get('/', function () {
     return view('welcome');
 });
-
-
-Route::get('/test', function () {
-    return 'Hola madafaca';
-});
-
-
-
-Route::get('lala', 'CategoryController@lala');
-//Route::get('categories', 'CategoryController@index');
-
-Route::get('categories', 'CategoryController@allCategories');
-
-Route::get('category/{id}', 'CategoryController@getCategory');

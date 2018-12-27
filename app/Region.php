@@ -14,6 +14,15 @@ class Region extends Model
     protected $table = 'regions';
 
     /**
+     * The attributes that should be hidden for arrays.
+     *
+     * @var array
+     */
+    protected $hidden = [
+        'created_at', 'updated_at',
+    ];
+
+    /**
      * The attributes that are mass assignable.
      *
      * @var array

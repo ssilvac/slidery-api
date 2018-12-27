@@ -24,11 +24,11 @@ class Location extends Model
 
     public function user()
     {
-        return $this->belongsTo(User::class);
+        return $this->hasOne(User::class);
     }
 
     public function city()
     {
-        return $this->hasOne(City::class);
+        return $this->belongsTo(City::class);
     }
 }

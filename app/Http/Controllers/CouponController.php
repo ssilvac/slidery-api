@@ -2,11 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Category;
+use App\Coupon;
 use Illuminate\Http\Request;
-use Illuminate\Http\Response;
 
-class CategoryController extends Controller
+class CouponController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -15,12 +14,7 @@ class CategoryController extends Controller
      */
     public function index()
     {
-        $categories = Category::all();
-
-        return response()->json([
-            'status' => 200,
-            'results' => $categories
-        ]);
+        return Coupon::all();
     }
 
     /**
@@ -41,9 +35,11 @@ class CategoryController extends Controller
      */
     public function store(Request $request)
     {
-        $category = new Category();
-        $category->name = $request->name;
-        $category->save();
+        $coupon = new Coupon();
+        $coupon->quantity = $request->quantity;
+        $coupon->prize_id = $request->prize_id;
+        $coupon->quantity = $request->quantity;
+        $coupon->save();
     }
 
     /**
@@ -54,7 +50,7 @@ class CategoryController extends Controller
      */
     public function show($id)
     {
-        return Category::find($id);
+        return Coupon::find($id);
     }
 
     /**
@@ -88,6 +84,7 @@ class CategoryController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $coupon = Coupon::find($id);
+        $coupon->delete();
     }
 }

@@ -14,6 +14,15 @@ class City extends Model
     protected $table = 'cities';
 
     /**
+     * The attributes that should be hidden for arrays.
+     *
+     * @var array
+     */
+    protected $hidden = [
+        'created_at', 'updated_at',
+    ];
+
+    /**
      * The attributes that are mass assignable.
      *
      * @var array
@@ -24,11 +33,11 @@ class City extends Model
 
     public function region()
     {
-        return $this->hasOne(Region::class);
+        return $this->belongsTo(Region::class);
     }
 
     public function locations()
     {
-        return $this->belongsToMany(Location::class);
+        return $this->hasMany(Location::class);
     }
 }
